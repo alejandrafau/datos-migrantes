@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿De qué barcos?</title>
+    <title>Interferencias</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -18,6 +18,7 @@
             justify-content: center;
             max-width: 75%;
             text-align: center;
+            margin-bottom:5rem;
         }
 
         h1 {
@@ -53,6 +54,34 @@
             margin-left: -10%;
 
         }
+
+        .first-svg-container p{
+           text-align: right !important;
+            font-family: 'Exo', sans-serif;
+            font-weight: 400; /* Regular */
+            font-style: italic;
+            font-size: 0.75em;
+            color: #544B4B; 
+        }
+
+        .second-svg-container {
+            align-items: center !important;
+            justify-content: center !important;
+            margin-left: -10%;
+            margin-top: 15%;
+
+        }
+
+        .second-svg-container p{
+           text-align: right !important;
+            font-family: 'Exo', sans-serif;
+            font-weight: 400; /* Regular */
+            font-style: italic;
+            font-size: 0.75em;
+            color: #544B4B; 
+        }
+
+
 
         .svg-container p{
            text-align: right !important;
@@ -189,54 +218,108 @@
 
             La historia se conforma de otras historias que tienen mucho que decir sobre asuntos paralelos y satélites. <br>
             
-            En este viaje de dos que nos encontramos buceando nuevas maneras de visualizar, queremos hacer zoom a algunos datos que nos muestran que, lejos de caminos con un principio y fin, cada historia migrante interfiere y es interferida por su destino. <br>
-            
-            Cada decisión (o imposición) de movimiento, enhebra vidas y creatividades de las que nacen preguntas nuevas. 
+           <u>¿Podemos aproximarnos a esas historias leyendo entre líneas en datos oficiales? ¿Hay otros datos que hablen de ellas?</u> 
             </p>
     </div>
     <div class = "text-block">       
-    <h3>Punto de partida</h3>
+    <h3>Datos oficiales</h3>
     <p>Comenzamos con la búsqueda de datos elaborados por organismos oficiales, RENAPER e INDEC, para observar la distribución de las personas migrantes en las diferentes provincias. 
     </p>
     </div>
     <div class="first-svg-container">
         <img src="./source/porProvincia.png" alt="Map by Province" width="65%" height="65%" margin-left = "-10%" />
+        <p>Población por país de origen según provincia de residencia. Fuente: RENAPER, 2023</p>
     </div>
     <div class ="text-block">
     <p>
-    Al visualizar la distribución de la población extranjera según año de llegada nos llamó la atención el crecimiento de la migración china y peruana en los últimos años. 
+    
+    Ciudad de Buenos Aires y provincia de Buenos Aires resaltan como los principales destinos. La provincia pareciera ser el lugar elegido por personas migrantes de Bolivia y Paraguay, mientras que Ciudad Autónoma de Buenos Aires, es el destino favorecido por personas migrantes de Venezuela, Perú y Colombia.<br>
+    Si en vez de observar la cantidad absoluta de personas de origen extranjero observamos el porcentaje de la población extranjera, el panorama cambia.
     </p>
+    </div>
+    <div class="second-svg-container">
+        <img src="./source/porProvincia_porcentaje.png" alt="Porcentaje de población migrante en cada provincia" width="65%" height="65%" margin-left = "-10%" />
+        <p>Porcentaje de migrantes por país sobre población provincial total. Fuente: RENAPER, 2023</p>
+    </div>
+    <div class ="text-block">
+        <p>
+        
+            Las provincias con mayor porcentaje de población migrante son CABA, Formosa, Santa Cruz, Jujuy y Tierra del Fuego. Salvo por CABA, son todas provincias limítrofes. 
+
+            Es un recordatorio tangencial de la tensión entre fronteras político administrativas y corredores o zonas bioculturales.<br>
+            
+Otro dato oficial que resulta interesante observar es la aceleración o desaceleración de corrientes migratorias. 
+
+            
+        </p>
+        </div>
+
     </div>
     <div class="svg-container">
         <img src="./source/peruYotros.png" alt="Map by Province" width="80%" height="80%" />
         <p>Población en viviendas particulares nacida en el extranjero por lugar de nacimiento, según año de llegada al país, en porcentaje<br>Fuente: INDEC</p>
     </div>
+    <div class ="text-block">
+        <p>
+        
+          
+A pesar de que no es el país del que vienen más migrantes, la migración de Perú fue la que creció más aceleradamente entre 1990 y 2010, junto con la de China.
+Aunque no incorporamos acá los datos del censo 2022, un comportamiento similar se dio con la migración de Venezuela en la última década.
+ 
+
+            
+        </p>
+        </div>
     <div class="left-stroke-div">
         <p>Durante los años 90, miles de peruanos migraron hacia Argentina atraídos por el tipo de cambio. 
             Según los censos, en esa década se pasó de 16 mil a 90 mil residentes.
             </p>
     </div>
     <div class = "text-block">       
-        <h3>Desvíos</h3>
-        <ul>
-            <li><p>¡Despertó la curiosidad! ¿Qué traducciones se derivan?</p></li>
-            <li><p>¿Cómo podemos conocer más sobre esta población migrante desde un enfoque no demográfico o estadístico?</p></li>
-            <li><p>Prácticas, formas de habitar, tradiciones, consumos...</p></li>
-            <li><p>¿Qué datos pueden hablar de migración sin ser de migración?</p></li>
-            <li><p>¡Ya! Sin repetir y sin soplar un producto 100% peruano: La Inca Kola!</p></li>
-        </ul>
-        <p>A ver: ¿cuántas veces se googleó Inca Kola en Argentina?*</p>
-        </div>
-        <div class = "container">
-        <div class="image-div">
-                <img src="./source/IncaKola.png" alt="Description" />
+        <h3>Otros datos</h3>
+        <p>Fuera de censos y encuestas, <u>¿qué información emerge de la cotidianidad de las personas migrantes que habilite ver la migración desde otra óptica?</u><br>
+
+            Buscamos por ejemplo búsquedas en google de consulado peruano en Argentina.
+            </p>
+    </div>
+            <div class="first-svg-container">
+                <img src="./source/consuladoPeru.png" alt="busquedas Consulado" width="50%" height="50%"/>
+                <p>Búsquedas del termino "Consulado peruano en argentina" y asociados en Google<br>Fuente: Google Trends</p>
             </div>
-        <div class="svg-container">
-            <img src="./source/busquedasGoogle.png" alt="Búsquedas de Inca Kola en Google" width="75%" height="75%"/>
-            <p>Cantidad de búsquedas hechas de Inca Kola desde Argentina. Fuente: Google Trends</p>
+
+        <div class = "text-block">       
+            <p>Asumiendo que frecuentemente buscamos en Google un lugar para saber su dirección, podemos pensar que hay una correlación entre búsqueda en Google y concurrencia. 
+
+                Algunos de los picos de búsqueda se corresponden con elecciones generales en Perú. 
+                
+                También podemos notar que descienden las búsquedas luego del 2010. Esta dato es congruente con la desaceleración de la migración peruana, habiendo poca diferencia entre la población peruana en 2010 y 2022.<br>
+             
+                
+                También podríamos averiguar cantidad de búsquedas de productos peruanos.
+                
+                </p>
         </div>
+        <div class="second-svg-container">
+            <img src="./source/consumos.png" alt="consumos" width="50%" height="50%" margin-right = "-5%"/>
+            <p>Búsquedas de varios productos peruanos en Google<br>Fuente: Google Trends</p>
         </div>
-           
+        <div class = "text-block">       
+            <p>Sin duda en las últimas décadas adquirió mucha visibilidad y popularidad la comida peruana, así que el crecimiento de búsquedas en los términos “comida peruana” y “ceviche” (con un interesante pico en la pandemia) pueden no sorprender.
+
+                Los gráficos de “Inca Cola” y de “Chola de Oro” quizás nos hablen de otra cosa. Los dos gráficos son inversos, esto puede no sólo sugerir preferencias de consumo en momentos dados sino la tensión entre la importación y la producción local y cómo atraviesa la experiencia de migrantes.
+                
+                
+                </p>
         </div>
+        <div class="left-stroke-div">
+            <p>Hasta 2002 Carlos Echeverría un migrante peruano importaba Inca Kola para el mercado argentino, pero luego de la devaluación del peso, ya no le resultó rentable.
+                "en 2006 comencé a producir mi propia línea de gaseosas con la marca Chola de Oro. Empezamos con una fábrica de soda en Barracas, y hoy la gaseosa está presente en la mayoría de los restaurantes peruanos de la ciudad y en muchos almacenes y autoservicios del conurbano y de ciudades del interior"
+                </p>
+        </div>
+      
+
+
+
+      
 </body>
 </html>
